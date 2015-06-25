@@ -124,8 +124,8 @@ def hit(hand):
 # A very conservative rule
 def computeStrategy(hand):
     strategy = ""
-    if (computeScore(hand) > 15): strategy = "Stay"
-    if (computeScore(hand) <=15): strategy =  "Hit"
+    if (computeScore(hand) > 17): strategy = "Stay"
+    if (computeScore(hand) <=17): strategy =  "Hit"
 
     return strategy
 
